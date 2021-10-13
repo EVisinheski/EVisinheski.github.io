@@ -25,7 +25,7 @@ a:hover {
 }
 /* Style the header */
 .header {
-	border:2px;
+	border: 1px;
 	margin: 5px;
 	box-align: center;
 	text-align: center;
@@ -67,7 +67,7 @@ a.linkum:link {
 a.linkum:hover {
 	color: #FF0000;
 }
- @media (max-width: 700px) {
+ @media (max-width: 600px) {
 .row {
 	flex-direction: column;
 }
