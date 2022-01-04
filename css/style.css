@@ -47,18 +47,19 @@ div {
 	border: 1px solid red;
 }
 
-section{
+section {
 	border: 1px solid blue;
-	height:100%
+	height: 100%
 }
 
 .outerbox {
-	width:100%;
+	width: 100%;
 	text-align: center;
-	padding-top:5%;
-	padding-bottom:5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 
 }
+
 /*
 background-image: url(../images/backimagecopy.jpg);
 background-color: rgb(240, 240, 240);
@@ -82,7 +83,7 @@ background-size: 100%;*/
 	background-repeat: no-repeat;
 	display: inline-block;
 	background-size: 100%;
-	
+
 }
 
 .grey {
@@ -115,6 +116,7 @@ background-size: 100%;*/
 	background-size: 100%;
 
 }
+
 .textcenter {
 	text-align: center;
 }
@@ -131,12 +133,15 @@ background-size: 100%;*/
 	0% {
 		background-color: rgb(240, 240, 240);
 	}
+
 	33% {
 		background-color: rgb(210, 210, 210);
 	}
+
 	67% {
 		background-color: rgb(175, 175, 175);
 	}
+
 	100% {
 		background-color: rgb(240, 240, 240);
 	}
@@ -146,12 +151,15 @@ background-size: 100%;*/
 	0% {
 		background-color: rgb(240, 240, 240);
 	}
+
 	33% {
 		background-color: rgb(210, 210, 210);
 	}
+
 	67% {
 		background-color: rgb(175, 175, 175);
 	}
+
 	100% {
 		background-color: rgb(240, 240, 240);
 	}
@@ -161,12 +169,15 @@ background-size: 100%;*/
 	0% {
 		background-color: rgb(210, 210, 210);
 	}
+
 	33% {
 		background-color: rgb(175, 175, 175);
 	}
+
 	67% {
 		background-color: rgb(240, 240, 240);
 	}
+
 	100% {
 		background-color: rgb(210, 210, 210);
 	}
@@ -176,12 +187,15 @@ background-size: 100%;*/
 	0% {
 		background-color: rgb(210, 210, 210);
 	}
+
 	33% {
 		background-color: rgb(175, 175, 175);
 	}
+
 	67% {
 		background-color: rgb(240, 240, 240);
 	}
+
 	100% {
 		background-color: rgb(210, 210, 210);
 	}
@@ -191,12 +205,15 @@ background-size: 100%;*/
 	0% {
 		background-color: rgb(175, 175, 175);
 	}
+
 	33% {
 		background-color: rgb(240, 240, 240);
 	}
+
 	67% {
 		background-color: rgb(210, 210, 210);
 	}
+
 	100% {
 		background-color: rgb(175, 175, 175);
 	}
@@ -206,12 +223,15 @@ background-size: 100%;*/
 	0% {
 		background-color: rgb(175, 175, 175);
 	}
+
 	33% {
 		background-color: rgb(240, 240, 240);
 	}
+
 	67% {
 		background-color: rgb(210, 210, 210);
 	}
+
 	100% {
 		background-color: rgb(175, 175, 175);
 	}
@@ -222,6 +242,7 @@ background-size: 100%;*/
 		bottom: -100px;
 		opacity: 0
 	}
+
 	to {
 		bottom: 0px;
 		opacity: 1
@@ -233,6 +254,7 @@ background-size: 100%;*/
 		bottom: -100px;
 		opacity: 0
 	}
+
 	to {
 		bottom: 0;
 		opacity: 1
@@ -253,6 +275,7 @@ background-size: 100%;*/
 		display: inline-block;
 		background-size: 100%;
 	}
+
 	.boxlogo {
 		width: 100%;
 		text-align: center;
@@ -260,17 +283,21 @@ background-size: 100%;*/
 		padding-bottom: 7%;
 		background-size: 100%;
 	}
+
 	.boxlogo .grey {
 		display: none;
 	}
+
 	.boxlogo .darkgrey {
 		display: none;
 	}
+
 	.menu {
 		/*Adds the background colour for the top Menu*/
 		overflow: hidden;
 		background-color: rgb(255, 255, 255);
 	}
+
 	.menu a {
 		/*Menu text and boxing but does not include the first child */
 		float: center;
